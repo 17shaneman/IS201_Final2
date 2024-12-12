@@ -1,0 +1,63 @@
+h1{color: green;}
+/*give class name to change both*/
+
+body{
+    background-color: hsl(187, 79%, 30%);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 0px;
+    font-size: large;
+    transition: background-color 2s ease-in-out;
+}
+.sidebar{ 
+    background-color: rgb(0, 46, 60);
+    width: 200px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    position: fixed;
+}
+.toolbar{ 
+    background-color: rgb(0, 0, 0);
+    width: 10px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0px;
+    position: fixed;
+}
+
+.topbar {
+    background-color: rgb(0, 46, 60);
+    width: calc(100% - 200px); /* Subtract sidebar width + padding */
+    height: 40px; /* 20px height + padding */
+    left: 200px; /* Align with the sidebar's edge */
+    top: 0;
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+}
+.content{
+    margin-left: 215px; /* Sidebar width (200px) + padding (15px) */
+    margin-top: 50px;   /* Topbar height (20px) + padding (10px * 2) */
+    padding: 20px;      /* Internal spacing for content */
+    background-color: rgb(127, 126, 147);
+}
+.portfolio{
+    text-align:center;
+    background-color: beige;
+
+}
+.end{
+    margin-left: 300px;
+    padding: 10px;
+    color: antiquewhite;
+}
+h3,h2{
+    color: rgb(91, 182, 188);
+    font-family: 'Times New Roman', Times, serif}
+    
+a{
+    color: rgb(0, 136, 111);
+}
